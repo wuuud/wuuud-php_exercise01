@@ -1,11 +1,3 @@
-<!-- <?php
-
-$name = '';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name = $_POST['name'];
-}
-?> -->
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -27,10 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="submit" value="送信">
         </div>
     </form>
-    <div>
-        <?=htmlspecialchars($name, ENT_QUOTES, 'UTF-8')?>
-    </div>
-    
 </body>
 
 </html>

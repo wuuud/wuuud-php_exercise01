@@ -3,7 +3,7 @@
 echo '$numの値を入力してください:' ;
 $num = trim(fgets(STDIN));
  
-if ($num % 1== 0 && $num==1) {
+if ($num % 1 == 0 && $num==1) {
 echo "{$num}は素数ではありません。"; 
 } else {
 echo "{$num}は素数です。"; 
