@@ -4,7 +4,7 @@ $err_msg = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $age = $_POST['age'];
-   //デリバーション
+   //デバリエーション
    if (empty($age)) {
       $err_msg = '年齢を入力してください。';
    }
